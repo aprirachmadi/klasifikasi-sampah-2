@@ -35,12 +35,12 @@ page = option_menu(
 
 # Home Page
 if page == "Home":
-    st.title("SiLampah")
+    st.title("pilahIn")
     st.markdown("""
-    ### Aplikasi untuk Pemilahan Sampah Organik dan Anorganik
+    ### Aplikasi untuk Memilah Sampah Organik dan Anorganik
     """)
     st.markdown("""
-    ### Selamat Datang di Aplikasi SiLampah
+    ### Selamat Datang di Aplikasi pilahIn
     Sebuah aplikasi yang dapat membantu pengguna untuk dapat MEMILAH sampah organik dan sampah anorganik
     Hanya dalam 1 kali klik pada aplikasi
     """)
@@ -133,21 +133,10 @@ elif page == "Menu Utama":
 elif page == "Tentang Kami":
     st.title("Tentang Kami")
     st.write("""
-    ### SiLampah
-    Aplikasi ini dikembangkan oleh Tim 2 KKN Universitas Diponegoro Desa Banyakprodo 2024 dengan kolaborasi bersama SD Negeri 3 Tirtomoyo
+    ### pilahIn
+    Aplikasi ini dikembangkan oleh Tim 2 KKN Universitas Diponegoro Desa Banyakprodo 2024
     """)
-    st.title("Profil Sekolah")
     st.image('logo sekolah.jpg')
     st.write("""
-    SD Negeri 3 Tirtomoyo adalah salah satu sekolah dasar yang berada di Desa Banyakprodo, Kecamatan Tirtomoyo, Kabupaten Wonogiri, Jawa Tengah, Jln. Kamboja No. 2 Padangan Banyakprodo Tirtomoyo
+    pilahIn berdedikasi untuk memberikan edukasi pemilahan sampah sejak dini di seluruh lapisan masyarakat, membangun Indonesia yang lebih hijau dan ramah lingkungan melalui teknologi yang inovatif dan mudah diakses.
     """)
-    st.write("""
-    ### Visi
-    “Terwujudnya insan pembelajar sepanjang hayat yang berkarakter, berintegritas, inovatif, unggul dalam mutu, dan berkecakapan global.” 
-    ### Misi
-    Dalam upaya mengimplementasikan visi sekolah, SD Negeri 3 Tirtomoyo menjabarkan misi sekolah sebagai berikut:
-    1. Melaksanakan program dan kegiatan sekolah untuk meningkatkan keimanan, ketaqwaan, akhlak mulia kepada peserta didik melalui penerapan pengamalan ajaran-ajaran agama di sekolah.
-    2. Membangun lingkungan sekolah yang inovatif bertoleransi dalam kebhinekaan global, mencintai budaya lokal dan menjunjung nilai gotong royong.
-    3. Mengembangkan dan memfasilitasi peningkatan prestasi peserta didik baik akademik dan non akademik melalui proses pendampingan dan kerja sama.
-    4. Menanamkan kesadaran pentingnya penguasaan teknologi dan seni budaya melalui proses pembelajaran, bimbingan dan ekstrakurikuler sesuai bakat, minat, dan kebutuhannya. 
-""")
