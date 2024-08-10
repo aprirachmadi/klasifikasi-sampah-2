@@ -136,7 +136,7 @@ elif page == "Tentang Kami":
     ### pilahIn
     Aplikasi ini dikembangkan oleh Tim 2 KKN Universitas Diponegoro Desa Banyakprodo 2024
     """)
-    st.image('Green Leaf Nature Logo Design.png')
+    st.image('pilahIn-logo.png')
     st.write("""
     pilahIn berdedikasi untuk memberikan edukasi pemilahan sampah sejak dini di seluruh lapisan masyarakat, membangun Indonesia yang lebih hijau dan ramah lingkungan melalui teknologi yang inovatif dan mudah diakses.
     """)
